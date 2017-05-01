@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+	<script>
+		
+		function Confirmation(){
+			var concat = confirm("Do you want to continue.");
+
+			if(concat == true){
+				document.write("User want to continue.");
+				return true;
+			}
+			else{
+				document.write("User Don't want to continue.");
+				return false;
+			}
+			
+		}
+	</script>
+</head>
+<body>
+<h3>Click the button to see the result.</h3>
+<input type="button" value="click me" onclick = "Confirmation()">
+</body>
+</html>

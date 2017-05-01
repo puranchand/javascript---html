@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forEach</title>
+</head>
+<body>
+<script type="text/javascript">
+
+console.log("Original value is...")
+	
+var swift = new Array(0,43,645,42,43,32)
+ swift.forEach(function(val,index){
+ 	console.log(index +" your value is "+ val)
+ 	document.write(index +" your value is "+ val+"<br />")
+
+ })
+console.log("your reverse value is ..")
+ swift.reverse()
+ swift.forEach(function(val,index){
+ 	console.log(index+"my inverse value is "+val)
+ 	document.write(index+"my inverse value is "+val+"<br />")
+
+ })
+</script>
+
+</body>
+</html>
